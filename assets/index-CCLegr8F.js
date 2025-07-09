@@ -6822,7 +6822,7 @@ children:"Är ni intresserade av att sänka er BRF:s kostnader och effektivisera
 className:"contact-info",children:[g.jsxs("p",{
 children:[g.jsx("strong",{
 children:"Email:"
-})," info@brfoptima.se"]
+})," brfoptima@gmail.com"]
 }),g.jsxs("p",{
 children:[g.jsx("strong",{
 children:"Telefon:"
