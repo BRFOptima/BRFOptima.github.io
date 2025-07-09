@@ -6826,11 +6826,11 @@ children:"Email:"
 }),g.jsxs("p",{
 children:[g.jsx("strong",{
 children:"Telefon:"
-})," 08-123 456 78"]
+})," 072 233 22 34"]
 }),g.jsxs("p",{
 children:[g.jsx("strong",{
 children:"Adress:"
-})," Storgatan 1, 111 22 Stockholm"]
+})," Britsarvsvägen 28B, 79136 Falun"]
 })]
 })]
 }),g.jsxs("div",{
