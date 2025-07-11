@@ -15,27 +15,27 @@ body {
 .App-header {
     background: linear-gradient(135deg, #2c3e50, #34495e);
     color: #fff;
-    padding: 1rem 0;
+    padding: 0.25rem 0; /* Mycket liten padding för att minimera headerns höjd */
     position: sticky;
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Ta bort alla 'display: flex' eller 'align-items: center' HÄR om de finns! */
 }
-
 .header-content {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+    display: flex; /* Gör dess barn (logotyp och nav) flexibla */
+    justify-content: space-between; /* Skjuter logotypen till vänster och nav till höger */
+    align-items: center; /* Centrerar logotyp och nav vertikalt */
+    padding: 0 2rem; /* Behåll horisontell padding, ingen vertikal här */
 }
-
 .logo {
-    height: 50px;
-    width: auto;
+    height: 110px; /* Den önskade höjden för din logotyp */
+    width: auto; /* Detta är avgörande för att behålla proportionerna */
+    object-fit: contain; /* Säkerställer att bilden skalas korrekt utan att klippas */
+    padding: 0; /* Ingen extra padding på logotypen själv */
 }
-
 .App-header nav ul {
     list-style: none;
     display: flex;
